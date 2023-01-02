@@ -1,0 +1,59 @@
+/* Canvas reset */
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    /* No overflow (no scrollbar down at the bottom of the page) */
+    overflow-x: hidden;
+
+    /* Color */
+    color: white;
+    background-color: aliceblue;
+}
+
+img {
+    /* Position */
+    position: absolute;
+    width: 100vw;
+    height: 55%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+h1 {
+    /* Position */
+    text-align: center;
+    padding-top: 10%;
+
+    /* Font size */
+    font-size: 5.5rem;
+}
+
+/* Text push-down */
+#text-bg {
+    margin-top: 20%;
+}
+
+h3, p {
+    /* Position */
+    text-align: center;
+    font-size: 2.5rem;
+
+    /* Color */
+    color: black;
+}
+
+/* Flex-box enable */
+#text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Text box */
+p {
+    width: 50%;
+}
